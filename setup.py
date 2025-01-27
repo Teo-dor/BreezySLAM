@@ -45,10 +45,10 @@ else:
 SOURCES = [
     'pybreezyslam.c', 
     'pyextension_utils.c', 
-    '../c/coreslam.c', 
-    '../c/coreslam_' + arch + '.c',
-    '../c/random.c',
-    '../c/ziggurat.c']
+    './c/coreslam.c', 
+    './c/coreslam_' + arch + '.c',
+    './c/random.c',
+    './c/ziggurat.c']
 
 from distutils.core import setup, Extension
 
