@@ -20,8 +20,8 @@ along with this code.  If not, see <http://www.gnu.org/licenses/>.
 #include <Python.h>
 #include <structmember.h>
 
-#include "../c/coreslam.h"
-#include "../c/random.h"
+#include "./c/coreslam.h"
+#include "./c/random.h"
 #include "pyextension_utils.h"
 
 // Position class  -------------------------------------------------------------
