@@ -23,6 +23,7 @@ along with this code.  If not, see <http://www.gnu.org/licenses/>.
 # Support streaming SIMD extensions
 
 from platform import machine
+import python
 
 OPT_FLAGS  = []
 SIMD_FLAGS = []
